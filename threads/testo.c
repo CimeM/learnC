@@ -85,10 +85,15 @@ int main ()
       }
    }
 
+
+
    if (pclose(f) < 0)
    {
        printf("ERROR pclose;");
    }
+
+
+
 
    return 0;
 }
